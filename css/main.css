@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color: rgb(105, 92, 64);
+    font-family: 'Press Start 2P', cursive;
+}
+.none{
+    display: none !important;
+}
+
+*{
+    margin: 0;
+}
+/* main block */
+.container{
+    margin: 50px 100px;
+    padding-top: 50px;
+    width: 300px;
+    height: 700px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(54, 43, 34);
+    border-radius: 3px;
+    z-index: 1;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+#btn{
+    position: relative;
+    left: 1%;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+    text-shadow: 0px 2px 1px black;
+    background-color: rgba(216, 112, 147, 0);
+    border-radius: 3px;
+    border: 0;
+    padding: 10px;
+    margin: 15px 0px 10px;
+    z-index: 3;
+}
+#btn:hover{
+    color: rgb(141, 61, 61);
+    cursor: pointer;
+}
+#clickscore{
+    position: relative;
+    left: 1%;
+    top: 50px;
+    z-index: 3;
+    font-size: 25px;
+    margin: 15px 10px 10px;
+    color: rgb(214, 29, 60);
+    text-shadow: 0px 3px 1px black;
+    user-select: none;
+}
+#yourscore{
+    position: relative;
+    top: 45px;
+    font-size: 15px;
+    left: 1%;
+    z-index: 3;
+    margin: 10px;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.411);
+}
+.box_img{
+    position: absolute;
+    top: 80px;
+    left: 152px;
+    display: inline-block;
+    z-index: 1;
+    width: 200px;
+    user-select: none;
+}
+.skin{
+    margin-bottom: 10px;
+    opacity: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+.skin:hover{
+    opacity: 1;
+    user-select: none;
+}
+#yellowbox{
+    display:none;
+}
+#bluebox{
+    display:none;
+}
+#redbox{
+    display:none;
+}
+#purplebox{
+    display:none;
+}
+.text{
+    color: rgba(0, 0, 0, 0.582);
+}
+/* achivments block */
+.achivments{
+    position: absolute;
+    top: 0;
+    left: 450px;
+    margin: 50px 100px;
+    padding-top: 50px;
+    width: 1000px;
+    height: 700px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    z-index: 1;
+    text-transform: uppercase;
+    overflow: hidden;
+    background-color: rgb(228, 203, 149);
+}
+.row{
+    min-width: 680px;
+    max-height: 50px;
+    padding: 20px 80px;
+    border: 5px solid rgb(54, 43, 34);
+    border-radius: 5px;
+    background-color: rgba(165, 42, 42, 0.295);
+    margin-top: 50px;
+    justify-content: start;
+    align-items: center;
+    display: inline-flex;
+    column-gap: 100px;
+    overflow:hidden;
+    user-select: none;
+}

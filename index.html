@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickBox</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container"><p id="yourscore">Score:</p><h4 id="clickscore" >0</h4>
+    <br><div class="box_img"><img id="currentbox" src="./images/box.svg" alt=""></div><br>
+    <button id = "btn" onclick = "totalclick()">Click</button>
+    <br><br><br><p class="text">Click as much as you can!</p><br>
+    <img id="bluebox" onclick="blueboxswitch()" class="skin" src="./images/box2.svg" alt="bluebox" title="blue box skin"width="50px"><br>
+    <img id="redbox" onclick="redboxswitch()" class="skin" src="./images/box3.svg" alt="redbox" title="red box skin" width="50px"><br>
+    <img id="purplebox" onclick="purpleboxswitch()" class="skin" src="./images/box4.svg" alt="purplebox" title="purple box skin" width="50px"><br>
+    <img id="yellowbox" onclick="yellowboxswitch()" class="skin" src="./images/box.svg" alt="yellowbox" title="yellow box skin" width="50px"><br>
+    </div>
+    
+    <div class="achivments">
+        <h4 id="achivmentsscore">achivments 0/4</h4>
+        <div id="100" class="row none"><img src="./images/deliver.svg" alt="" width="50px"><p>You scored 100! x2 to click!</p></div>
+        <div id="200" class="row none"><img src="./images/shop.svg" alt="" width="50px"><p>You scored 200! x3 to click!</p></div>
+        <div id="300" class="row none"><img src="./images/1.gif" alt="" width="100px"><p>Are you still here?</p></div>
+        <div id="500" class="row none"><img src="./images/why.jpg" alt="" width="100px"><p>Your mouse is probably broken</p></div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
